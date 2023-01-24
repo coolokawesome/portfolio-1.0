@@ -1,0 +1,30 @@
+
+h1 {
+    font-family: 'visby-cf bold';
+}
+h2 {
+    font-family: 'visby-cf regular';
+}
+h3 {
+    font-family: 'visby-cf light';
+}
+.welcome {
+    margin: auto;
+    margin-bottom: 20vh;
+
+}
+.container {
+    margin-left: auto;
+}
+
+.about {
+    background-image: linear-gradient(45deg, black, black);
+    transform: skewY(-11deg);
+    margin: auto;
+    max-width: 100vw !important;
+}
+.about-inner {
+	transform: skewY(11deg);
+    max-width: 2em;
+    margin: auto;
+}
