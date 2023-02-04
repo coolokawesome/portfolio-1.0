@@ -37,3 +37,6 @@ Projects [
     url : '/imgs/j808.jpg'}
 ]
 //add visit button for each thing
+//add a display for mobile and desktop
+//one laptop, one phone with a white background
+//black text on the right with yellow underliner
