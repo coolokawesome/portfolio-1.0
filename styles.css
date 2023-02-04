@@ -54,8 +54,9 @@ p {
 .welcome {
  
 }
-.about {
- 
+.about-section {
+    scroll-margin-top: 5vh;
+
 }
 
 .skill-item {
@@ -72,6 +73,7 @@ p {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
+
 }
 .project-row {
 background-color: #e2e2e2;
@@ -80,4 +82,9 @@ background-color: #e2e2e2;
 .projects {
     /*use this as a header buffer so the navbar doesnt cut out */
  scroll-margin-top: 5vh;
+}
+.welcome-section {
+    padding-top: 30vh;
+    height: 100vh;
+    
 }
