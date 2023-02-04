@@ -10,7 +10,8 @@ Skills = [
     'PhotoShop',
     'SEO',
     'C# Basics',
-    'SQL Basics']
+    'SQL Basics'
+    ]
 //get the div and give it a separate container for each item
 $('#skillsDiv').attr('class', 'col-sm-12 col-md-6 mb-1').append(
     $('<h2>').attr('class', 'text-center').text('Skills'))
