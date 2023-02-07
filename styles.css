@@ -4,7 +4,6 @@
 }
 .navbar {
   background: rgba(235, 235, 235, 0.853);
-border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(13.9px);
 -webkit-backdrop-filter: blur(13.9px);
@@ -122,11 +121,12 @@ textarea {
 
 }
 .contact-container {
-  height: 70vh;
+  height: 60vh;
+  
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1526px) {
     .contact-container {
-        height: 55vh;
+      height: 50vh;
       }
 }
 .footer-section {
@@ -174,3 +174,14 @@ a {
 .project-text {
 font-size: large;
 }
+
+/*NIGHT MODE STYLING*/
+.btn-moon {
+  animation: Arrow 8s both infinite;
+  background-color: #ff9500 !important;
+}
+.fa-moon-o {
+  color: white !important;
+  font-weight: 900;
+}
+
