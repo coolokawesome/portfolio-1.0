@@ -27,16 +27,26 @@ Skills.forEach(item => {
                         .text(item)
                 ))})
 //declare Project item Array
-Projects [
-    {name : 'Leetspeak.me',
-    desc : 'A text-generator that converts the user’s input into two kinds of leetspeak. Features an intuitive and user-friendly design.',
-    url : '/imgs/calendar.jpg'},
+// Projects [
+//     {name : 'Leetspeak.me',
+//     desc : 'A text-generator that converts the user’s input into two kinds of leetspeak. Features an intuitive and user-friendly design.',
+//     url : '/imgs/calendar.jpg'},
 
-    {name : 'J-808',
-    desc : 'A replica of the vintage TR-808 drum machine made using the Tone.js sound library',
-    url : '/imgs/j808.jpg'}
-]
+//     {name : 'J-808',
+//     desc : 'A replica of the vintage TR-808 drum machine made using the Tone.js sound library',
+//     url : '/imgs/j808.jpg'}
+// ]
+
+
+
 //add visit button for each thing
 //add a display for mobile and desktop
 //one laptop, one phone with a white background
 //black text on the right with yellow underliner
+
+$('#skillsDiv').append(
+    $('<div>').attr('class', 'cv container cv-container d-flex justify-content-center text-center').append(
+        $('<button>').attr('class', 'btn cta-btn m-5 rounded-3 cv-btn').text('Download CV ')
+    )
+    
+)
