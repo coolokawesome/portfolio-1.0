@@ -19,7 +19,7 @@ h3,
   font-weight: 800 !important;
 }
 h1 {
-  color: #14213d;
+  color: #000000;
   font-size: 6vw !important;
 }
 h2 {
@@ -27,7 +27,7 @@ h2 {
 }
 h3 {
     
-  color: rgb(0, 0, 0) !important;
+  color: rgb(45, 45, 45) !important;
   font-size: 6vw !important;
   text-decoration: underline #fca311;
 }
@@ -93,8 +93,8 @@ a {
 }
 
 .projects {
-  /*use this as a header buffer so the navbar doesnt cut out */
-  scroll-margin-top: 55px !important ;
+  /*use this as a header buffer so the navbar doesnt cut out on navigation */
+  scroll-margin-top: 55px !important;
 }
 .welcome-section {
   padding-top: 30vh;
