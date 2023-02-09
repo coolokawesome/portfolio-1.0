@@ -185,6 +185,7 @@ font-size: large;
   font-weight: 900;
 }
 .cv-btn {
-  animation: Arrow 2s linear infinite;
-  background-color: rgb(159, 194, 237) !important;
+  animation: Arrow 20s linear infinite;
+  background-color: rgb(159, 194, 237) !important
+  ;
 }
