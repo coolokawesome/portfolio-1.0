@@ -83,17 +83,23 @@ p {
   margin: 50px;
 }
 .social-container {
-  width:80px;
 }
 .social-landing {
   background-color: #fca311;
   text-align: center;
-  justify-content: center;
+  width:88px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
 }
-
+i {
+  justify-content: center;
+  
+}
 a {
   text-decoration: none !important;
 }
+
 .about-section {
   scroll-margin-top: 5vh;
   min-height: 100vh;
