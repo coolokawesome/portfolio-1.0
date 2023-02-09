@@ -25,22 +25,18 @@
 </head>
 
 <body>
-  <nav id="navbar_top" class="navbar sticky-top navbar-expand-sm navbar-light">
+  <nav id="navbar_top" class="p-3 navbar sticky-top navbar-expand-sm navbar-light d-flex justify-content-center">
     <div class="container">
       <a class="navbar-brand" href="#">SC</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="main_nav">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse justify-content-center text-center" id="main_nav">
+        <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Works</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Works</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
         <!--<div><button id='nightMode' class="btn btn-moon rounded-5"><i class="fa fas fa-moon-o "></i></button></div>-->
@@ -50,18 +46,48 @@
     <!-- container-fluid.// -->
   </nav>
   <div class="main-container">
-    <section id="home" class="welcome-section">
-      <div class="d-lg-flex welcome container">
-
-        <div class="col col-sm-12 col-lg-6 order-md-last order-sm-first text-center">
+    <section id="home" class="welcome-section ">
+      <div class="d-lg-flex 
+      align-items-center  
+      welcome container">
+        <div class="col col-sm-12 col-lg-5 order-md-last order-sm-first text-center justify-items-center">
           <div class="circle-image">
-            <img class="img-fluid border border-4 rounded-circle" href="#">
+            <image class="img-fluid img-thumbnail border border-5 border- rounded-circle m-3" src="/user.png"></image>
           </div>
         </div>
-
-        <div class="col col-sm-12 col-lg-6 order-sm-last order-md-first justify-content-end">
-          <h1>Hi, I'm Syrus,</h1>
-          <h2>Junior Web Developer</h2>
+        <div class="col col-sm-12 col-lg-7 order-sm-last 
+        order-md-first justify-content-end">
+          <h1 class="m-1 text-center text-lg-start">Hi, I'm Syrus.</h1>
+          <h2 class="m-1 text-center text-lg-start">A Junior Web Developer based out of Ontario</h2>
+          <div class="mt-5 text-center text-lg-start">
+            <a href="#projects"><button class="cta-btn rounded-pill btn btn-lg text-end">Explore my
+                portfolio</button></a>
+          </div>
+          <div class="mt-5 m-1 text-center text-lg-start">
+            <h2>Find me on:</h2>
+            <div class="fa-3x d-flex justify-content-center justify-content-lg-start socials-div">
+              <div class="social-container">
+                <a target="_blank" class="text-decoration-none social-container" href="https://github.com/coolokawesome">
+                  <i
+                    class="landing-text fa fa-linkedin d-flex m-3">
+                  </i></a>
+              </div>
+              <div>
+                <a target="_blank" class="text-decoration-none social-container" href="https://github.com/coolokawesome">
+                  <i
+                    class="landing-text fa fa-github d-flex m-3">
+                  </i></a>
+              </div>
+              <div>
+                <a target="_blank" class="text-decoration-none social-container" href="https://github.com/coolokawesome">
+                  <i
+                    class="landing-text fa fa-facebook d-flex m-3">
+                  </i></a>
+              </div>
+              
+            </div>
+            
+          </div>
           <h4></h4>
         </div>
       </div>
@@ -81,7 +107,7 @@
               social media and content for small businesses to creating logos
               for startups.
             </p>
-            <p> I hold a <b>College Certificate in
+            <p> I hold a <b> Certificate in
                 Project Management</b> and am currently a student of <b>Web Development
                 Technologies and Internet Applications</b>, which have further
               enhanced my skills and ability to deliver exceptional results in

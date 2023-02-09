@@ -43,10 +43,3 @@ Skills.forEach(item => {
 //add a display for mobile and desktop
 //one laptop, one phone with a white background
 //black text on the right with yellow underliner
-
-$('#skillsDiv').append(
-    $('<div>').attr('class', 'cv container cv-container d-flex justify-content-center text-center').append(
-        $('<button>').attr('class', 'btn cta-btn m-5 rounded-3 cv-btn').text('Download CV ')
-    )
-    
-)
