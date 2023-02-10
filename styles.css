@@ -56,7 +56,7 @@ h3 {
     
   color: rgb(45, 45, 45) !important;
   font-size: 6vw !important;
-  text-decoration: underline #fca311;
+  /* text-decoration: underline #a058ff; */
 }
 h5 {
   font-size: 4vw !important;
@@ -98,6 +98,14 @@ p {
   transition-duration: 0.2s ease;
   transition-property: all;
 }
+.cta-btn:active {
+  box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
+  transform: scale(0.8);
+  background-color: #9036ff!important;
+  color: white !important;
+  transition-duration: 0.05s ease;
+  transition-property: all;
+}
 .cta-btn:not(hover) {
   transform: translateY(2px);
   transform: scale(1);
@@ -125,7 +133,7 @@ p {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
     transform: scale(1.07);
   color: white !important;
-  background-color: #6c0be1 !important;
+  background-color:  #7c26e5 !important;
   transition-duration: 0.2s ease;
   transition-property: all;
   border-radius: 22px;
@@ -147,6 +155,9 @@ p {
   color:#6c0be1 !important;
   margin-left: 15px;
   margin-right: 15px;
+}
+.socials-div {
+
 }
 i {
   justify-content: center;
