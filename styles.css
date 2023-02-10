@@ -220,6 +220,19 @@ textarea {
       height: 50vh;
       }
 }
+@media screen and (max-width: 991.5px) {
+  .welcome-section {
+    padding-top: 1vh;
+    height: 100vh;
+  }
+  .mousediv {
+    height: 0px !important;
+    overflow: hidden;
+  }
+}
+.mousediv {
+  margin-top: 10vh !important;
+}
 .footer-section {
   height: 20vh;
   background-color: #14213d;
