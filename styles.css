@@ -15,10 +15,17 @@ h1,
 h2,
 h3,
 .btn,
-.nav-link {
+.nav-link,
+.display-5 {
   font-family: "Outfit", sans-serif;
   font-weight: 800 !important;
 }
+.display-6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800 !important;
+
+}
+
 .nav-link:hover {
 transform: translateY(-6px);
 transform: scale(1.07);
@@ -43,19 +50,20 @@ font-size: 6vw !important;
 .hOne {
   font-weight: 700 !important;
   font-size: 6vw !important;
-  background: linear-gradient(-90deg, #7b11fc, #6c0be1, #a058ff, #6c0be1); 
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(-30deg, #6c0be1, #9e58ff, #6c0be1);  
+  background-size: 200% !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+
 }
+
 
 h2 {
   font-weight: 300 !important;
 }
 h3 {
-    
+  
   color: rgb(45, 45, 45) !important;
-  font-size: 6vw !important;
   /* text-decoration: underline #a058ff; */
 }
 h5 {
@@ -86,9 +94,7 @@ p {
   top: 0px;
   transition: top ease 0.4s;
 }
-.project-row {
-  margin: 50px;
-}
+
 
 .cta-btn:hover {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
@@ -168,10 +174,13 @@ a {
 }
 
 .about-section {
-  scroll-margin-top: 5vh;
-  min-height: 100vh;
-  scroll-margin-top: 55px !important ;
 
+  min-height: 95vh;
+  scroll-margin-top: 72px !important ;
+
+  }
+.about {
+  
 }
 
 .skill-item {
@@ -189,9 +198,7 @@ a {
   padding-bottom: 7px;
   margin: auto;
 }
-.project-row {
-  background-color: #ffffff;
-}
+
 
 .projects {
   /*use this as a header buffer so the navbar doesnt cut out on navigation */
@@ -201,6 +208,7 @@ a {
   padding-top: 10vh;
   height: 90vh;
     scroll-margin-top: 5vh;
+    margin-bottom: 5vh;;
 
 }
 .contact-container {
@@ -286,27 +294,55 @@ a {
     transform: translateY(-3px);
   }
 }
-.project-text {
-font-size: large;
+
+
+.img-thumbnail {
+  width: 50vw ;
+  border: solid 3px #6c0be1 ;
+  box-shadow: 2px 3px 9px #0000002d;
+}
+.img-thumbnail:hover {
+  transform: rotate(1deg);
+  transition-duration: 0.2s;
+    box-shadow: 2px 3px 9px #0000002d;
+}
+.img-thumbnail:active {
+  transform: rotate(180deg);
+  filter: brightness(110%);
+}
+.img-thumbnail:not(hover) {
+  transition-duration: 0.2s;
+  transform: rotate(-1deg) 1s ease;
 }
 
-/*NIGHT MODE STYLING*/
-.btn-moon {
-  animation: Arrow 8s both infinite;
-  background-color: #ff9500 !important;
+.project-box {
+
 }
-.fa-moon-o {
-  color: white !important;
-  font-weight: 900;
+.project-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
-.cv-btn {
-  animation: Arrow 20s linear infinite;
-  background-color: rgb(159, 194, 237) !important
-  ;
+.project-image:hover {
+  display:inline;
 }
-.img-thumbnail {
-  width: 50vw !important;
-  border: solid 3px #6c0be1 !important;
-  box-shadow: 4px 9px 9px #0000002d;
+
+/* PROJECT SECTION */
+.project-text, .project-title {
+  color: white;
+  height:19vh;
 }
-/* arrow animation */
+
+.project-box:hover {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transform: scale(1.01);
+  
+}
+.project-box-plates {
+
+}
+.project-box-plates:hover {
+
+}
