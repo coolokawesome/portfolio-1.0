@@ -43,10 +43,10 @@ Skills.forEach(item => {
 //one laptop, one phone with a white background
 //black text on the right with yellow underliner
 $(window).bind('scroll', function() {
-    if ($(window).scrollTop() > 500) {
-        $('#mouse').show("1000");
+    if ($(window).scrollTop() > 200) {
+        $('#mouse').hide("1000");
     }
     else {
-        $('#mouse').hide("1000");
+        $('#mouse').show("1000");
     }
 });

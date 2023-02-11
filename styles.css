@@ -80,6 +80,7 @@ h5 {
 }
 p {
   font-size: large;
+  font-weight: 300;
 }
 
 .welcome-section {
@@ -113,7 +114,7 @@ p {
 }
 .cta-btn:active {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
-  transform: scale(0.8);
+  transform: scale(0.9);
   background-color: #9036ff!important;
   color: white !important;
   transition-duration: 0.02s ease;
@@ -244,11 +245,7 @@ a {
     margin-bottom: 5vh;;
 
 }
-.contact-container {
-  background-color: #ffffff;
-  justify-content: center;
-  align-items: center;
-}
+
 input,
 .input {
   width: 80%;
@@ -256,21 +253,12 @@ input,
 textarea {
   resize: none !important;
 }
-.submitbtn {
-  background-color: rgb(255, 219, 154) !important;
-  margin: 10px !important;
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-
+.form-control {
+  border: solid 3px rgb(113, 112, 116) !important;
+  background-color: #eeeeee !important;
 }
-.contact-container {
-  height: 60vh;
-  
-}
-@media screen and (max-width: 1526px) {
-    .contact-container {
-      height: 50vh;
-      }
+.form-control:focus {
+  background-color: rgb(255, 255, 255) !important;
 }
 @media screen and (max-width: 991.5px) {
   .welcome-section {
@@ -352,23 +340,4 @@ a {
 }
 .plate-row {
   background-color: rgb(255, 255, 255);
-}
-.project-img:hover {
-  transform: scale(1.002);
-  
-  transition-duration: 0.9s ease !important;
-}
-
-
-.platestitle{
-  color: rgb(55, 55, 55); 
-  transition-duration: 0.2s;
-  
-}
-
-.leettitle {
-  background: linear-gradient(-50deg, #6c20a6, #852cec, #715acd, #6b3ac7);  
-  background-size: 100% !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }

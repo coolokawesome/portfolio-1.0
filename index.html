@@ -39,7 +39,7 @@
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <!--<div><button id='nightMode' class="btn btn-moon rounded-5"><i class="fa fas fa-moon-o "></i></button></div>-->
       </div>
@@ -105,7 +105,7 @@
     <section id="projects" class="projects ">
       <div class="projects-container project container-md">
         <div class="col  d-flex justify-content-between ">
-          <h3 class="display-5">Projects</h3>
+          <h3 class="display-5">Recent Projects</h3>
           <a class=""><button class="btn btn-lg cta-btn ps-5 pe-5 rounded-pill">Github</button></a>
         </div>
       </div>
@@ -118,7 +118,7 @@
             <h4 class="display-6 text-center text-lg-end platestitle">Canadaplates.ca</h4>
             <p>A customizable vanity plate creator for every canadian provence/territory.
               Show off your Canadian pride with a personalized license plate that's all your own!</p>
-              <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
+            <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
             <h4 class="display-6 text-center text-lg-end platestitle">Leetspeak.me</h4>
             <p>A customizable vanity plate creator for every canadian provence/territory.
               Show off your Canadian pride with a personalized license plate that's all your own!</p>
-              <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
+            <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
           </div>
         </div>
       </div>
@@ -146,70 +146,68 @@
             <h4 class="display-6 text-center text-lg-end platestitle">J-808</h4>
             <p>An interactive drum machine based off of the vintage TR-808 sequencer.
               Features a Start, Reset and BPM parameter. Made with vanilla Javascript.</p>
-              <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
+            <a><button class="btn cta-btn2 rounded-5">See More...</button></a>
           </div>
         </div>
       </div>
 
     </section>
-    <section id="about"class="about" style="background-image: url(imgs/bg.png); background-repeat: no-repeat; background-size: cover ;">
+    <section id="about" class="about"
+      style="background-image: url(imgs/bg.png); background-repeat: no-repeat; background-size: cover; ">
       <div class="about-container container">
         <div class="row p-3">
-          <div class="col-12 col-md-8">
+          <div class="col-12 col-lg-8">
             <p class="about-text">
               I believe that design and development go hand in hand, and my
-            background in graphic designhas given me a unique perspective
-            on how to approach web development projects. I have honed my
-            design skills by working on a variety of projects, from managing
-            social media and content for small businesses to creating logos
-            for startups.
-          </p>
-          <p class="about-text"> I hold a Certificate in
-              Project Management and and currently a last-year student of Web Development Technologies and Internet Applications, which have further enhanced my skills and ability to deliver exceptional results in web development projects.
-          </p>
-          <p class="about-text">
-            My freelance work has given me the opportunity to work with
-            clients which has helped me to develop a flexible and adaptable
-            design process.
+              background in graphic designhas given me a unique perspective
+              on how to approach web development projects. I have honed my
+              design skills by working on a variety of projects, from managing
+              social media and content for small businesses to creating logos
+              for startups.
+            </p>
+            <p class="about-text"> I hold a Certificate in
+              <b>Project Management</b> and and currently a last-year student of <b>Web Development Technologies and
+                Internet Applications,</b> which have further enhanced my skills and ability to deliver exceptional
+              results in web development projects.
             </p>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-lg-4">
             <div class="skillsDiv" id="skillsDiv"></div>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section id="contact"class="contact">
       <div class="contact-container rounded-2 mb-4">
-        <div class="row contact-row">
-          <div class="col">
-            <h3 class="text-center mt-4">Contact Me!</h3>
-            <!-- add form validation js script-->
-            <!-- one big form box -->
-            <!-- footer -->
+        <h3 class="display-5 container">Contact Me</h3>
+        <form class="container "action="https://formspree.io/f/mgebanop"
+                                        method="POST">
+          <div class="row contact-row">
+            <div class="col d-flex justify-content-center">
+              <input id="formName" class="form-control form input m-1 d-flex justify-content-center" type="name" name="name"
+                placeholder="name" required />
+            </div>
           </div>
-        </div>
-        <div class="row contact-row">
-          <div class="col d-flex justify-content-center">
-            <input id="formName" class="form input m-1 d-flex justify-content-center" type="text" placeholder="name" />
+          <div class="row contact-row">
+            <div class="col d-flex justify-content-center">
+              <input id="formEmail" class="form-control  form input m-1" type="email"
+              name="email" placeholder="email" required/>
+            </div>
           </div>
-        </div>
-        <div class="row contact-row">
-          <div class="col d-flex justify-content-center">
-            <input id="formEmail" class="form input m-1" type="text" placeholder="email" />
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <textarea rows="4" id="formMessage" class="form-control  form input m-1" type="text" name="message"
+                placeholder="your message" required></textarea>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col d-flex justify-content-center">
-            <textarea rows="4" id="formMessage" class="form input m-1" type="text"
-              placeholder="your message"></textarea>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <button type="submit"class="btn btn-lg ps-5 pe-5 cta-btn rounded-5 pt-2 pb-2">Submit</button>
+              <!-- <button class="btn btn-lg ps-2 pe-2 cta-btn rounded-5 pt-2 pb-2">Download CV</button> -->
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col d-flex justify-content-center">
-            <button class="btn submitbtn">Submit</button>
-          </div>
-        </div>
+        </form>
+
         <div class="form-error" id="formError"></div>
       </div>
     </section>
