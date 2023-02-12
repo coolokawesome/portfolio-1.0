@@ -25,28 +25,15 @@ Skills.forEach(item => {
                     $('<p>').attr('class','skill-text')
                         .text(item)
                 ))})
-//declare Project item Array
-// Projects [
-//     {name : 'Leetspeak.me',
-//     desc : 'A text-generator that converts the user’s input into two kinds of leetspeak. Features an intuitive and user-friendly design.',
-//     url : '/imgs/calendar.jpg'},
 
-//     {name : 'J-808',
-//     desc : 'A replica of the vintage TR-808 drum machine made using the Tone.js sound library',
-//     url : '/imgs/j808.jpg'}
-// ]
-
-
-
-//add visit button for each thing
-//add a display for mobile and desktop
-//one laptop, one phone with a white background
-//black text on the right with yellow underliner
 $(window).bind('scroll', function() {
+    if ($(window).scrollTop() > 100) {
+        $('#mouse').hide();
+    }
     if ($(window).scrollTop() > 200) {
-        $('#mouse').hide("1000");
+        $('#mouse').hide();
     }
     else {
-        $('#mouse').show("1000");
+        $('#mouse').show();
     }
 });

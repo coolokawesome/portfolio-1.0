@@ -1,5 +1,7 @@
 /*Styles in descending order*/
-
+body {
+  margin-bottom: -48px;
+}
 .main-container {
   overflow-y: hidden !important;
   overflow-x: hidden !important;
@@ -13,9 +15,8 @@ backdrop-filter: blur(13.9px);
 }
 p {
   font-family: "Outfit", sans-serif;
-  font-weight: 200;
+  font-weight: 200;}
 
-}
 h1,
 h2,
 h3,
@@ -35,7 +36,7 @@ transform: translateY(-6px);
 transform: scale(1.07);
 transition-duration: 1s ease;
 transition-property: all;
-color:#ffffff !important;
+color:#8349ff !important;
 
 }
 .nav-link:not(hover) {
@@ -43,7 +44,7 @@ color:#ffffff !important;
   transform: scale(1);
   transition-duration: 0.6s ease;
   transition-property: all;
-  color:#ffffff !important;
+  color:#000000 !important;
   margin-left: 15px;
   margin-right: 15px;
   }
@@ -237,12 +238,11 @@ a {
 }
 .welcome-section {
   padding-top: 10vh;
-  height: 90vh;
+  min-height: 90vh;
     scroll-margin-top: 5vh;
-    margin-bottom: 5vh;;
-
+    margin-bottom: 5vh;
 }
-
+/*  */
 input,
 .input {
   width: 80%;
@@ -266,13 +266,26 @@ textarea {
     height: 0px !important;
     overflow: hidden;
   }
+  .welcome-section {
+    min-height: 120vh;
+  }
 }
-.mousediv {
-  margin-top: 10vh !important;
+@media screen and (max-width: 550.5px) {
+  .welcome-section {
+    min-height: 90vh;
+  }
 }
+@media screen and (max-width: 391px) {
+  .welcome-section {
+    min-height: 10vh;
+  }
+}
+
+
+
 .footer-section {
   height: 20vh;
-  background-color: #1b1a2c;
+  background-color: #000000;
 }
 .github {
   color: white;
@@ -329,7 +342,7 @@ a {
     box-shadow: 2px 3px 9px #0000002d;
 }
 .img-thumbnail:active {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   filter: brightness(110%);
 }
 .img-thumbnail:not(hover) {
@@ -345,12 +358,13 @@ a {
 }
 
 
-
+.socials-div {
+  margin-bottom: 10vh !important;
+}
 .social-footer {
   top: 0;
   position: relative;
   transition: top ease 0.3s;
-  background-color: #fca21100 !important;
   text-align: center;
   width:60px;
   padding-top: 8px;
