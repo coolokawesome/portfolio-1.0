@@ -35,7 +35,7 @@ transform: translateY(-6px);
 transform: scale(1.07);
 transition-duration: 1s ease;
 transition-property: all;
-color:#6c0be1 !important;
+color:#ffffff !important;
 
 }
 .nav-link:not(hover) {
@@ -43,7 +43,7 @@ color:#6c0be1 !important;
   transform: scale(1);
   transition-duration: 0.6s ease;
   transition-property: all;
-  color:#000000 !important;
+  color:#ffffff !important;
   margin-left: 15px;
   margin-right: 15px;
   }
@@ -197,9 +197,6 @@ p {
   margin-left: 15px;
   margin-right: 15px;
 }
-.socials-div {
-
-}
 i {
   justify-content: center;
   
@@ -275,7 +272,7 @@ textarea {
 }
 .footer-section {
   height: 20vh;
-  background-color: #14213d;
+  background-color: #1b1a2c;
 }
 .github {
   color: white;
@@ -296,6 +293,10 @@ textarea {
 
 .footer-text {
   color: white !important;
+  text-align: center;
+}
+.footer-section {
+  height:30vh !important;
 }
 a {
   color: rgb(0, 0, 0) !important;
@@ -336,8 +337,47 @@ a {
   transform: rotate(-1deg) 1s ease;
 }
 .projects {
+  scroll-margin-top: 72px !important ;
   background-color: rgb(255, 255, 255);
 }
 .plate-row {
   background-color: rgb(255, 255, 255);
+}
+
+
+
+.social-footer {
+  top: 0;
+  position: relative;
+  transition: top ease 0.3s;
+  background-color: #fca21100 !important;
+  text-align: center;
+  width:60px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  color: #ffffff !important;
+  border: none;
+}
+.social-footer:hover {
+  color: white !important;
+  transition-duration: 0.2s ease;
+  transition-property: all;
+  border-radius: 22px;
+}
+.social-footer:active {
+  transform: translateY(-6px);
+  transform: scale(0.8);
+  background-color: #ffce80 !important;
+  transition-duration: 0.1s;
+  transition-property: all;
+  border-radius: 22px;
+}
+.social-footer:not(hover) {
+  transform: translateY(2px);
+  transform: scale(1);
+  transition-duration: 0.2s ease;
+  transition-property: all;
+  margin-left: 15px;
+  margin-right: 15px;
 }
