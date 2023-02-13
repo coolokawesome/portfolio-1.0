@@ -173,7 +173,7 @@ p {
   padding-bottom: 8px;
   border-radius: 20px;
   color: #6c0be1 !important;
-  border: solid #6c0be1 2px;
+  border: solid #6c0be1 3px;
 }
 .social-landing:hover {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
