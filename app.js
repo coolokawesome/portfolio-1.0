@@ -26,14 +26,3 @@ Skills.forEach(item => {
                         .text(item)
                 ))})
 
-$(window).bind('scroll', function() {
-    if ($(window).scrollTop() > 100) {
-        $('#mouse').hide();
-    }
-    if ($(window).scrollTop() > 200) {
-        $('#mouse').hide();
-    }
-    else {
-        $('#mouse').show();
-    }
-});

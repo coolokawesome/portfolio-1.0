@@ -61,7 +61,7 @@ font-size: 6vw !important;
   -webkit-text-fill-color: transparent !important;
 }
 .dp-img {
-  filter: blur(2px);
+
 }
 
 h2 {
@@ -169,21 +169,21 @@ p {
   padding-bottom: 8px;
   border-radius: 20px;
   color: #6c0be1 !important;
-  border: solid #6c0be1 3px;
+  border: solid #6c0be1 2px;
 }
 .social-landing:hover {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
-    transform: scale(1.07);
+    transform: scale(1.03);
   color: white !important;
   background-color:  #7c26e5 !important;
   transition-duration: 0.2s ease;
   transition-property: all;
-  border-radius: 22px;
+  border-radius: 19px;
 }
 .social-landing:active {
   box-shadow: 9px 5px 5px rgba(136, 136, 136, 0.281);
   transform: translateY(-6px);
-  transform: scale(0.8);
+  transform: scale(0.9);
   background-color: #ffce80 !important;
   transition-duration: 0.1s;
   transition-property: all;
@@ -257,7 +257,7 @@ textarea {
 .form-control:focus {
   background-color: rgb(255, 255, 255) !important;
 }
-@media screen and (max-width: 991.5px) {
+/* @media screen and (max-width: 991.5px) {
   .welcome-section {
     padding-top: 1vh;
     height: 100vh;
@@ -269,8 +269,8 @@ textarea {
   .welcome-section {
     min-height: 120vh;
   }
-}
-@media screen and (max-width: 550.5px) {
+} */
+/* @media screen and (max-width: 550.5px) {
   .welcome-section {
     min-height: 90vh;
   }
@@ -279,14 +279,17 @@ textarea {
   .welcome-section {
     min-height: 10vh;
   }
-}
+} */
 
 
 
 .footer-section {
   height: 20vh;
   background-color: #000000;
-}
+  min-height: calc(20vh- 40px);
+  margin-bottom: 0;
+ }
+
 .github {
   color: white;
   font-size: xx-large;
@@ -337,13 +340,12 @@ a {
   box-shadow: 2px 3px 9px #0000002d;
 }
 .img-thumbnail:hover {
-  transform: rotate(1deg);
+  transform: rotate(0.6deg);
   transition-duration: 0.2s;
     box-shadow: 2px 3px 9px #0000002d;
 }
 .img-thumbnail:active {
-  transform: rotate(360deg);
-  filter: brightness(110%);
+  transform: rotate(0.9deg);
 }
 .img-thumbnail:not(hover) {
   transition-duration: 0.2s;
