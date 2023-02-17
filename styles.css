@@ -438,3 +438,6 @@ a {
   margin-left: 15px;
   margin-right: 15px;
 }
+.landing-text {
+  color: white !important;
+}
