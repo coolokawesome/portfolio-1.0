@@ -5,12 +5,16 @@ Skills = [
     'Javascript',
     'JQuery',
     'React',
-    'Git Bash',
+    'Bootstrap/Tailwind',
+    'Git',
     'Python',
     'Github',
-    'PhotoShop',
     'C# Basics',
-    'SQL Basics'
+    'SQL Basics',
+    'Photoshop',
+    'Illustrator',
+    'Bash & Powershell',
+    'Debugging'
     ]
 //get the div and give it a separate container for each item
 $('#skillsDiv').attr('class', 'mb-1').append(
