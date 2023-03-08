@@ -4,6 +4,7 @@ Skills = [
     'CSS',
     'Javascript',
     'JQuery',
+    'React',
     'Git Bash',
     'Python',
     'Github',

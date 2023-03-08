@@ -141,6 +141,7 @@ p {
   color: white !important;
   transition-duration: 0.2s ease;
   transition-property: all;
+
 }
 .cta-btn2:active {
   transform: scale(0.8);
@@ -154,10 +155,11 @@ p {
   transform: scale(1);
   transition-duration: 0.2s ease;
   transition-property: all;
-  color:#7b11fc !important;
   margin-left: 15px;
   margin-right: 15px;
   border: solid #7b11fc 2px !important;
+  color:#7b11fc !important;
+
 }
 
 .cta-btn3:hover {
@@ -440,5 +442,10 @@ a {
 }
 .landing-text {
   color: white !important;
-  height
+
 }
+
+
+
+
+
